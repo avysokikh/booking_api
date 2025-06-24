@@ -12,6 +12,7 @@ class Booking extends Model
 
     const DEFAULT_CHECK_IN_HOUR = 14;
     const DEFAULT_CHECK_OUT_HOUR = 12;
+    
     protected $fillable = [
         'room_id',
         'user_id',
